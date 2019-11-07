@@ -1,0 +1,189 @@
+/* @import '~antd/dist/antd.css'; */
+*{
+  padding:0;
+  margin:0;
+}
+ul,li{
+  list-style: none;
+}
+body{
+  background-color: #e1e1e1;
+}
+/* header */
+.headerwarp{
+  height: 50px;
+  background: rgb(65, 63, 63);
+}
+.headerwarp header{
+  width: 1200px;
+  margin:0 auto;
+}
+.headerwarp img{
+  width:120px;
+  margin-top: 10px;
+}
+.headerwarp a{
+  margin: 0 20px;
+  color:rgb(216, 209, 209);
+}
+/* main */
+.main{
+  width: 1200px;
+  margin: 30px auto;
+}
+.content{
+  width: 900px;
+  float: left;
+  background-color:white ;
+}
+.sider{
+  width: 270px;
+  height: 500px;
+  float: right;
+}
+
+/* home.js->all */
+.header1{
+  padding: 10px;
+  background-color: #f6f6f6;
+  border-radius: 3px 3px 0 0;
+}
+.header1 a{
+  margin: 0 10px;
+  color: rgb(135, 189, 55);
+}
+/* .header1 a:visited{
+  background-color:rgb(135, 189, 55);
+  color: #fff;
+  padding: 3px 4px;
+  border-radius: 3px;
+} */
+
+
+
+/* Login 页样式 */
+.login{
+  padding:15px 50px;
+  line-height: 80px;
+  font-size:15px;
+}
+.login input {
+ 
+}
+.loginput1{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 5px 20px;
+  
+}
+.loginput2{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 5px 32px;
+}
+
+.submit{
+  width: 70px;
+  height: 30px;
+  background-color: cornflowerblue;
+  border:3px solid cornflowerblue;
+  color:white;
+  border-radius:5px;
+  margin: 5px 60px;
+}
+
+/* ALL样式 */
+.all{
+  width:900px;
+  height:30px;
+  line-height: 30px;
+  overflow: hidden;
+  padding:10px;
+  font-size: 14px;
+  display: inline-block;
+  float: left;
+  border-bottom:1px solid gainsboro;
+}
+.all img{
+  width:30px;
+  height: 30px;
+}
+.all1{
+  display: inline;
+  font-size:16px ;
+  color:black;
+  width:622px;
+ 
+}
+a:hover{
+  text-decoration: underline;
+}
+.top{
+  float: left;
+  background: #80bd01;
+  border:1px solid #80bd01;
+  color:white;
+  padding: 0px 5px;
+  border-radius:3px;
+  margin:0px 5px; 
+  
+}
+.all_content{
+  float: left;
+  display: inline;
+  width: 622px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.time{
+  width: 50px;
+  height: 28px;
+  font-size: 12px;
+  float: right;
+  padding-right: 10px;
+}
+
+.bottomWrap{
+  width:310px;
+  height: 30px;
+  float: left;
+  border:1px solid #999;
+  border-right: 0px;
+  border-radius: 3px;
+  margin:15px;  
+}
+.bottomInner{
+  float: left;
+  width: 30px;
+  height:30px;
+  border-right:1px solid #999;
+  color: #999;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* -------sider */
+.inner{
+  background: white;
+  padding: 10px;
+  border-radius: 0 0 3px 3px;
+  line-height:30px;
+  margin-bottom:13px;
+}
+.inner button{
+  color:white;
+  background-color: cornflowerblue;
+  border:3px solid cornflowerblue;
+  border-radius: 3px;
+  margin:0px 50px;
+}
+.panel{
+  margin-bottom: 13px;
+}
+.panel img{
+  width:250px;
+  height:150px;
+}
